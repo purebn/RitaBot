@@ -49,7 +49,7 @@ exports.listen = function listen (client)
             "maxTasksPerChannel": 10,
             "owner": auth.botOwner,
             "translateCmd": "!translate",
-            "translateCmdShort": "!tr",
+            "translateCmdShort": "!t",
             "version": botVersion
          };
 
@@ -94,8 +94,8 @@ exports.listen = function listen (client)
 
          client.user.setPresence({
             "activity": {
-               "name": "ritabot.gg | !tr help",
-               "type": "PLAYING"
+               "name": "BOW Server | !t help",
+               "type": "WATCHING"
             },
             "status": "online"
          });
