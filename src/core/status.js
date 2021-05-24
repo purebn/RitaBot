@@ -18,13 +18,13 @@ module.exports = function run (bot, status, config, writable = true)
 {
 
    const activevar = [
-      `ritabot.gg | !tr help`,
-      `for messages to translate | ritabot.gg`,
-      "messages to translate | ritabot.gg",
-      `!tr help commands | ritabot.gg`,
-      "translations | ritabot.gg",
-      `v.${config.version} | ritabot.gg`,
-      `!tr help modules | ritabot.gg`
+      `State Of Survival | !t help`,
+      `for messages to translate | Hi Arrow`,
+      "messages to translate | <3 RR",
+      `!t help commands | BOW 4 Life`,
+      "translations | BOW 4 Life",
+      `v.${config.version} | BOW Server Translator`,
+      `!t help modules | BOW Server Translator`
    ];
    const statusvar = [
       "PLAYING",
