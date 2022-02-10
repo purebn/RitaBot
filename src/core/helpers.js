@@ -159,10 +159,10 @@ exports.arraySum = function arraySum (array)
 exports.getRoleColor = function getRoleColor (member)
 {
 
-   if (member && member.highestRole && member.highestRole.color)
+   if (member)
    {
 
-      return member.highestRole.color;
+      return member.displayColor;
 
    }
    return null;
@@ -261,14 +261,6 @@ exports.getMessage = function getMessage (client, messageID, channelID, userID, 
       (channel) =>
       {
 
-         const message = channel.messages.cache.get(messageID);
-
-         if (message)
-         {
-
-            return cb(message);
-
-         }
 
          // Message not in channel cache
 
