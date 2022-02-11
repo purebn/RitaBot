@@ -117,7 +117,7 @@ async function announcement (data)
             "color": 9514728,
             "description": `${data.announcement.message}`,
             "footer": {
-               "text": `This is a Message from the RITA Dev Team\nRITA is developed by the RITA Bot Project\n\nTo opt out of annoucments please use the command {cmd} announce off`
+               "text": `This is a Message from the BOW Dev Team\nBOW is developed by Arrow\n\nTo opt out of annoucments please use the command {cmd} announce off`
             },
             "title": `${data.announcement.title}`
          }});
@@ -204,7 +204,7 @@ async function announcement (data)
                                  "description": `${data.announcement.message}`,
                                  "footer": {
                                     "text": `
-                                    This is a Message from the RITA Dev Team\nRITA is developed by the RITA Bot Project\n\nTo opt out of annoucments please use the command ${server[0].prefix} announce off`
+                                    This is a Message from the BOW Dev Team\nBOW is developed by ARROW\n\nTo opt out of annoucments please use the command ${server[0].prefix} announce off`
                                  },
                                  "title": `${data.announcement.title}`
                               }});
