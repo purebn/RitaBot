@@ -21,7 +21,7 @@ exports.topggToken = process.env.TOPGG_TOKEN
 // Right click your user in channel/message and pick "Copy ID" to obtain
 // ----------------------------------------------------------------------
 
-if (!process.env.677495520113065989)
+if (!process.env.DISCORD_BOT_OWNER_ID)
 {
 
    exports.botOwner = [0];
@@ -30,7 +30,7 @@ if (!process.env.677495520113065989)
 else
 {
 
-   exports.botOwner = process.env.677495520113065989.split(',');
+   exports.botOwner = process.env.DISCORD_BOT_OWNER_ID.split(',');
 
 }
 
