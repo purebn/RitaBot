@@ -21,7 +21,7 @@ exports.topggToken = process.env.TOPGG_TOKEN
 // Right click your user in channel/message and pick "Copy ID" to obtain
 // ----------------------------------------------------------------------
 
-if (!process.env.DISCORD_BOT_OWNER_ID)
+if (!process.env.677495520113065989)
 {
 
    exports.botOwner = [0];
@@ -30,7 +30,7 @@ if (!process.env.DISCORD_BOT_OWNER_ID)
 else
 {
 
-   exports.botOwner = process.env.DISCORD_BOT_OWNER_ID.split(',');
+   exports.botOwner = process.env.677495520113065989.split(',');
 
 }
 
@@ -90,5 +90,5 @@ exports.dev = process.env.DEBUG;
 
 exports.messagedebug = process.env.MESSAGE_DEBUG;
 
-exports.devID = ['211938703591997451', '469824032351584278', '536012252831285258', '488871621424054284', '735457815514185788', '827301550249476117', '446500198433161216', '277068610692972544'];
+exports.devID = ['677495520113065989', '211938703591997451', '469824032351584278', '536012252831285258', '488871621424054284', '735457815514185788', '827301550249476117', '446500198433161216', '277068610692972544'];
 
