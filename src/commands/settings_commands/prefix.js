@@ -20,7 +20,7 @@ function prefix (data)
    if (newPrefix === "reset")
    {
 
-      const reset = "!tr";
+      const reset = "!t";
       // console.log(`DEBUG: New Prefix ${newPrefix}`);
       return db.updatePrefix(
          data.message.channel.guild.id,
